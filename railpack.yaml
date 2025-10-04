@@ -1,0 +1,8 @@
+language: node
+version: 20   # أو أي نسخة حديثة تدعم مشروعك
+build:
+  - cd backend
+  - npm install
+start:
+  - cd backend
+  - npm start
